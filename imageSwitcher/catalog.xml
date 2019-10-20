@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="fl/transitions/Transition" mod="1431071582886" signatureChecksum="1983625810" >
+        <def id="fl.transitions:Transition" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="fl.transitions:TweenEvent" type="e" /> 
+        <dep id="fl.transitions:Tween" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="fl.transitions:Tween" type="s" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="fl/transitions/Blinds" mod="1431071582862" signatureChecksum="4097743680" >
+        <def id="fl.transitions:Blinds" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/Iris" mod="1431071582878" signatureChecksum="1166681708" >
+        <def id="fl.transitions:Iris" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/easing/Regular" mod="1431071582870" signatureChecksum="1126979087" >
+        <def id="fl.transitions.easing:Regular" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/transitions/easing/Elastic" mod="1431071582868" signatureChecksum="3908791018" >
+        <def id="fl.transitions.easing:Elastic" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/transitions/Wipe" mod="1431071582899" signatureChecksum="1840294763" >
+        <def id="fl.transitions:Wipe" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/Squeeze" mod="1431071582883" signatureChecksum="1402889568" >
+        <def id="fl.transitions:Squeeze" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/Fade" mod="1431071582872" signatureChecksum="4081996527" >
+        <def id="fl.transitions:Fade" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/easing/Strong" mod="1431071582871" signatureChecksum="4097398202" >
+        <def id="fl.transitions.easing:Strong" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/transitions/Tween" mod="1431071582895" signatureChecksum="3270317864" >
+        <def id="fl.transitions:Tween" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="fl.transitions:TweenEvent" type="e" /> 
+        <dep id="flash.utils:Timer" type="e" /> 
+        <dep id="flash.events:TimerEvent" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="flash.events:TimerEvent" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="fl/transitions/Photo" mod="1431071582880" signatureChecksum="447114279" >
+        <def id="fl.transitions:Photo" /> 
+        <dep id="flash.geom:ColorTransform" type="e" /> 
+        <dep id="flash.geom:ColorTransform" type="s" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/easing/None" mod="1431071582869" signatureChecksum="3797838425" >
+        <def id="fl.transitions.easing:None" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/transitions/easing/Bounce" mod="1431071582867" signatureChecksum="3716109721" >
+        <def id="fl.transitions.easing:Bounce" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/transitions/TweenEvent" mod="1431071582898" signatureChecksum="575838951" >
+        <def id="fl.transitions:TweenEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="fl/transitions/Rotate" mod="1431071582882" signatureChecksum="2663670188" >
+        <def id="fl.transitions:Rotate" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/PixelDissolve" mod="1431071582881" signatureChecksum="732349533" >
+        <def id="fl.transitions:PixelDissolve" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/TransitionManager" mod="1431076636376" signatureChecksum="3308285634" >
+        <def id="fl.transitions:TransitionManager" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="fl.transitions:Transition" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="fl/transitions/Fly" mod="1431071582874" signatureChecksum="746099732" >
+        <def id="fl.transitions:Fly" /> 
+        <dep id="flash.display:StageScaleMode" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/Zoom" mod="1431071582900" signatureChecksum="4015023058" >
+        <def id="fl.transitions:Zoom" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/easing/Back" mod="1431071582865" signatureChecksum="4286013218" >
+        <def id="fl.transitions.easing:Back" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="_ca826901b0e4fee6cfaffc66a927363f79a4e19010b94dfffa99357f5af86bd8_flash_display_Sprite" mod="1431326872967" signatureChecksum="3405741137" >
+        <def id="_ca826901b0e4fee6cfaffc66a927363f79a4e19010b94dfffa99357f5af86bd8_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="26630f56c03aeb917a85a1461fcd88fea006330b125921995aae9c013c2f4fed"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>
